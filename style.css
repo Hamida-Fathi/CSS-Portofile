@@ -1,0 +1,113 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.page1 {
+  background-image: url("./img/first-background.png");
+  height: 100vh;
+  background-size: 100% 100%; /* Stretches/squashes image! */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+h1 {
+  color: rgb(217, 79, 102);
+}
+.page1 h2 {
+  color: rgb(217, 79, 102);
+  font-size: xxx-large;
+  margin-top: 0px;
+}
+.page1 > h2 > span {
+  text-decoration: underline;
+}
+.profile > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.playwrite-ro {
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xxx-large;
+}
+.page2 {
+  height: 80vh;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  gap: 5px;
+}
+.profile > h2 {
+  margin: 20px;
+  color: rgb(217, 79, 102);
+}
+.profile > h2 {
+  font-size: 40px;
+}
+.profile > p {
+  font-size: 23px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.first-flex {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+  width: 40%;
+}
+.flex-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-area: 0px;
+  width: 35%;
+}
+.page3 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.my-skill {
+  text-align: center;
+}
+.heading {
+  color: rgb(217, 79, 102);
+}
+.rice-img {
+  border-radius: 50%;
+}
+.the-last-div {
+  margin-top: 10%;
+  background-color: rgb(217, 79, 102);
+  color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background-color: rgb(217, 79, 102);
+  width: fit-content;
+}
+.a {
+  margin: 30px;
+}
+.footer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
